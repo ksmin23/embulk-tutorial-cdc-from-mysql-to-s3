@@ -77,7 +77,7 @@ $ embulk gem list
 ```
 
 ### Out: RDS -> Console
-(1) config.yml 파일 작성
+(1) config.yml 파일 작성 (myconfig/config.out-console.yml)
 ```
 in:
   type: mysql
@@ -120,7 +120,7 @@ Claws,Gwen,cat,m,1904-03-17
 ```
 
 ### Out: RDS -> file
-(1) config.yml 파일 작성
+(1) config.yml 파일 작성 (myconfig/config.out-file.yml)
 ```
 in:
   type: mysql
@@ -286,7 +286,7 @@ $ embulk gem install embulk-formatter-jsonl
 $ embulk gem list
 ```
 
-(2) config.yml 작성
+(2) config.yml 작성 (myconfig/config.out-json-file.yml)
 ```
 in:
   type: mysql
@@ -356,7 +356,7 @@ $ embulk gem install embulk-output-s3
 $ embulk gem list
 ```
 
-(2) config.yml 작성
+(2) config.yml 작성 (myconfig/config.out-s3.yml)
 
 ```
 in:
@@ -432,7 +432,7 @@ $ embulk gem install embulk-formatter-jsonl
 $ embulk gem list
 ```
 
-(2) config.yml 작성
+(2) config.yml 작성 (myconfig/config.out-s3-json.yml)
 ```
 in:
   type: mysql
@@ -503,7 +503,7 @@ $ embulk gem install embulk-formatter-jsonl
 $ embulk gem list
 ```
 
-(2) config.yml 작성
+(2) config.yml 작성 (myconfig/config.out-s3-json-gzip.yml)
 ```
 in:
   type: mysql
@@ -585,7 +585,7 @@ $ embulk gem install embulk-formatter-jsonl
 $ embulk gem list
 ```
 
-(2) config.yml 작성
+(2) config.yml 작성 (myconfig/config.out-s3-incr-json-gzip.yml)
 
 ```
 in:

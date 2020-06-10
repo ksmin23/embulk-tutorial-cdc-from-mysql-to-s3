@@ -1,0 +1,25 @@
+in:
+  type: mysql
+  host: <db_host>
+  user: "<db user>"
+  password: "<db password>"
+  database: test
+  table: pet
+  select: "name, owner, species, sex, birth, c_time, pkid"
+  incremental: true
+  incremental_columns: [c_time, pkid]
+  last_record: ['2020-06-06T00:00:00.000', 1]
+out:
+  type: s3
+  path_prefix: logs-json/out
+  file_ext: .json
+  bucket: embulk-demo-output-use1
+  access_key_id: A41J4O4J2H6KBU95SPI3
+  secret_access_key: D7VXzKHbtickKnT7cDfb3hfHwNyshcJPXUbiMzf1
+  formatter:
+    type: jsonl
+    timezone: "UTC"
+    date_format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+  encoders:
+  - type: gzip
+    level: 1
