@@ -1,0 +1,23 @@
+in:
+  type: mysql
+  host: <db_host>
+  user: "<db user>"
+  password: "<db password>"
+  database: test
+  table: pet
+  select: "name, owner, species, sex, birth"
+  where: "c_time >= '2020-06-06 13:23:00' AND c_time < '2020-06-06 13:24:00'"
+out:
+  type: s3
+  path_prefix: logs-json-gzip/out
+  file_ext: .json.gz
+  bucket: embulk-demo-output-use1
+  access_key_id: A41J4O4J2H6KBU95SPI3
+  secret_access_key: D7VXzKHbtickKnT7cDfb3hfHwNyshcJPXUbiMzf1
+  formatter:
+    type: jsonl
+    timezone: "UTC"
+    date_format: "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+  encoders:
+  - type: gzip
+    level: 1
