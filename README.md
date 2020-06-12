@@ -857,3 +857,4 @@ Error: org.embulk.spi.time.TimestampParseException: Cannot parse '2020-06-06 00:
 # References
 * [embulk](https://www.embulk.org/docs/) - a open-source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
 * [mycli](https://www.mycli.net/) - a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting
+* [Loading CDC from MySQL to Amazon Kinesis Data Streams](https://github.com/ksmin23/lambda-cdc-to-kinesis)
