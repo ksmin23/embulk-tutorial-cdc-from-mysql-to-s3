@@ -373,8 +373,8 @@ out:
   path_prefix: logs/out
   file_ext: .csv
   bucket: embulk-demo-output-use1
-  access_key_id: A41J4O4J2H6KBU95SPI3
-  secret_access_key: D7VXzKHbtickKnT7cDfb3hfHwNyshcJPXUbiMzf1
+  access_key_id: AKIAIOSFODNN7EXAMPLE
+  secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
   tmp_path: /tmp
   formatter:
     type: csv
@@ -448,8 +448,8 @@ out:
   path_prefix: logs-json/out
   file_ext: .json
   bucket: embulk-demo-output-use1
-  access_key_id: A41J4O4J2H6KBU95SPI3
-  secret_access_key: D7VXzKHbtickKnT7cDfb3hfHwNyshcJPXUbiMzf1
+  access_key_id: AKIAIOSFODNN7EXAMPLE
+  secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
   formatter:
     type: jsonl
     timezone: "UTC"
@@ -519,8 +519,8 @@ out:
   path_prefix: logs-json-gzip/out
   file_ext: .json.gz
   bucket: embulk-demo-output-use1
-  access_key_id: A41J4O4J2H6KBU95SPI3
-  secret_access_key: D7VXzKHbtickKnT7cDfb3hfHwNyshcJPXUbiMzf1
+  access_key_id: AKIAIOSFODNN7EXAMPLE
+  secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
   formatter:
     type: jsonl
     timezone: "UTC"
@@ -604,8 +604,8 @@ out:
   path_prefix: logs-json/out
   file_ext: .json
   bucket: embulk-demo-output-use1
-  access_key_id: A41J4O4J2H6KBU95SPI3
-  secret_access_key: D7VXzKHbtickKnT7cDfb3hfHwNyshcJPXUbiMzf1
+  access_key_id: AKIAIOSFODNN7EXAMPLE
+  secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
   formatter:
     type: jsonl
     timezone: "UTC"
@@ -710,8 +710,8 @@ out:
   path_prefix: logs-json/out
   file_ext: .json
   bucket: embulk-demo-output-use1
-  access_key_id: A41J4O4J2H6KBU95SPI3
-  secret_access_key: D7VXzKHbtickKnT7cDfb3hfHwNyshcJPXUbiMzf1
+  access_key_id: AKIAIOSFODNN7EXAMPLE
+  secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
   tmp_path: /tmp
   formatter:
     type: jsonl
@@ -786,8 +786,8 @@ out:
   path_prefix: logs-json/out
   file_ext: .json
   bucket: embulk-demo-output-use1
-  access_key_id: A41J4O4J2H6KBU95SPI3
-  secret_access_key: D7VXzKHbtickKnT7cDfb3hfHwNyshcJPXUbiMzf1
+  access_key_id: AKIAIOSFODNN7EXAMPLE
+  secret_access_key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
   tmp_path: /tmp
   formatter:
     type: jsonl
