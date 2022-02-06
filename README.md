@@ -1,4 +1,5 @@
-# Description
+# Ingest CDC from MySQL to S3 with Embulk
+
 MySQL -> embulk -> S3 로 Change Data Capture(CDC)를 S3로 저장하는 예제
 
 ![embulk-cdc-from-mysql-to-s3](embulk-cdc-from-mysql-to-s3.svg)
