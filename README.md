@@ -28,13 +28,19 @@ embulk run     config.yml
 ## Preparation for sample database
 테스트에 사용할 MySQL 데이터베이스와 테이블을 생성하고, 샘플 데이터를 적재한다.
 
-```
-$ mycli -u<user_id> -p'<password>' -h <rds host name>
-Version: 1.8.1
-Chat: https://gitter.im/dbcli/mycli
-Mail: https://groups.google.com/forum/#!forum/mycli-users
-Home: http://mycli.net
-Thanks to the contributor - Ted Pennings
+<pre>
+$ mysql -h <i>rds_host_name</i> -u <i>user_id</i> -p '<i>password</i>'
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 947748268
+Server version: 5.7.12-log MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql>
 mysql> create database test;
 mysql> use test;
@@ -66,7 +72,7 @@ INSERT INTO test.pet (name, `owner`, species, sex, birth, death) VALUES
 ("Chirpy", "Gwen", "bird", "f", "1998-09-11", NULL),
 ("Whistler", "Gwen", "bird", NULL, "1997-12-09", NULL),
 ("Slim", "Benny", "snake", "m", "1996-04-29", NULL);
-```
+</pre>
 
 ## Running embulk
 ### MySQL Input Plugin Installation
